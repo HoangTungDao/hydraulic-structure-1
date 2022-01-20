@@ -133,11 +133,11 @@ def wave_overtopping(wperiod, wheight, dike_slope, wangle, crest_fboard, add_cre
     a0.grid()
     
     a1.plot(overtopping_lit, wheight, 'd', color='blue',
-            markersize=13, markerfacecolor='blue',
+            markersize=11, markerfacecolor='blue',
             markeredgecolor='black', markeredgewidth=1.2,
             label="Overtopping for initial inputs")
     a1.plot(overtopping_add_lit, wheight, '^', color='blue',
-            markersize=13, markerfacecolor='red',
+            markersize=11, markerfacecolor='red',
             markeredgecolor='black', markeredgewidth=1.2,
             label="Overtopping for additional inputs")
     a1.set_xlim(0, 1500)
