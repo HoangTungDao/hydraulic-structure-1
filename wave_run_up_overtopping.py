@@ -8,7 +8,7 @@ def wrun_up_old(wperiod, wheight, dike_slope):
     
     wrunup_old = 8 * wheight * dike_slope
     
-    print(f"Wave run-up followed 'Old Delft' formula is {wrunup_old:.2f} (m)")
+    print(f"Wave run-up followed 'Old Delft' formula is {wrunup_old:.2f} (m) \n")
     
     fig, (a0, a1) = plt.subplots(1,2, figsize = (21, 5),
                                  gridspec_kw={'width_ratios': [1, 5]})
