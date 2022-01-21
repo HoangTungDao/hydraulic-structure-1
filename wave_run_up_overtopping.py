@@ -200,7 +200,7 @@ Wave overtopping discharge q(new) = {overtopping_add:.3f} \
     
     a1.plot(overtopping_lit, wheight, '+', color='blue',
             markersize=13, markerfacecolor='blue',
-            markeredgecolor='black', markeredgewidth=2,
+            markeredgecolor='black', markeredgewidth=3,
             label="Overtopping with initial inputs")
     a1.plot(overtopping_add_lit, wheight, 'd', color='blue',
             markersize=13, markerfacecolor='red',
